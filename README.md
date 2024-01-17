@@ -10,6 +10,26 @@
 O aplicativo é um programa em Python que oferece uma variedade de funcionalidades interativas em um menu. Para acessar o menu, o usuário precisa fornecer uma senha correta (`VILHALVA`). Uma vez dentro, o usuário pode escolher entre diferentes opções numeradas (de 1 a 20) para realizar várias tarefas, como entrevistas de emprego simuladas, cálculos matemáticos, conversões, etc. Cada opção representa uma funcionalidade específica e executa uma tarefa diferente. O programa utiliza recursos visuais, como cores e estilos de texto, para tornar a interação mais interessante. Além disso, inclui mensagens de espera e contagens regressivas para criar uma experiência mais envolvente. 
 
 ## ATUALIZAÇÕES:
+### ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.3%20--%2017%2F01%2F2024-blueviolet)
+* 🈯️Refatoramos o código com modularização, organizando cada função em arquivos separados. Funções não mais utilizadas foram removidas.
+* ✅Corrigimos a função `VALOR_FLOAT`, tornando o programa compatível tanto com `VÍRGULA` (,) quanto com `PONTO` (.).
+* 🈯️Adicionamos validação de STRING: O programa agora rejeita campos vazios e valores numéricos.
+* 🈯️No `MENU PRINCIPAL`, substituímos as estruturas condicionais (if, elif) por um dicionário para mapear as opções diretamente para as funções correspondentes.
+* ✅Implementamos melhorias no `CONVERSOR DE TEMPERATURAS`, permitindo ao usuário converter entre Celsius e Fahrenheit, Fahrenheit e Celsius, e incluímos a opção de conversão para Kelvin. Agora, o programa oferece alternativas para converter de Celsius para Kelvin e de Fahrenheit para Kelvin.
+* ❇️Novas funções foram adicionadas:
+  - 🔸[ 21 ] PROGRESSÃO GEOMETRICA (PG)
+  - 🔸[ 22 ] CALCULAR O MMC
+  - 🔸[ 23 ] CALCULAR O MDC
+  - 🔸[ 24 ] EQUAÇÃO DO PRIMEIRO GRAU
+  - 🔸[ 25 ] EQUAÇÃO DO SEGUNDO GRAU
+  - 🔸[ 26 ] POTÊNCIAÇÃO
+  - 🔸[ 27 ] TABUADA
+  - 🔸[ 28 ] CONVERSOR DE TEMPO
+  - 🔸[ 29 ] PODE VOTAR?
+  - 🔸[ 30 ] CALCULADORA 
+* ✅Correções de bugs e pequenas melhorias.
+![](https://i.imgur.com/waxVImv.png)
+
 ### ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.2%20--%2020%2F12%2F2023-blueviolet)
 * ❎As cores do Terminal foram removidas.
 * ✅Depois de muito tempo, temos o prazer de anunciar o lançamento desse maravilhoso app para Windows X64. Se trata de um arquivo executável. Basta apenas baixar e executar.
