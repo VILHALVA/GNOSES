@@ -7,7 +7,7 @@
 <img src="https://cdn.icon-icons.com/icons2/325/PNG/256/Letter-G-icon_34759.png" align="center" width="280"> <br>
 
 ## DESCRIÇÃO:
-O aplicativo é um programa em Python que oferece uma variedade de funcionalidades interativas em um menu. Para acessar o menu, o usuário precisa fornecer uma senha correta (`VILHALVA`). Uma vez dentro, o usuário pode escolher entre diferentes opções numeradas (de 1 a 20) para realizar várias tarefas, como entrevistas de emprego simuladas, cálculos matemáticos, conversões, etc. Cada opção representa uma funcionalidade específica e executa uma tarefa diferente. O programa utiliza recursos visuais, como cores e estilos de texto, para tornar a interação mais interessante. Além disso, inclui mensagens de espera e contagens regressivas para criar uma experiência mais envolvente. 
+O aplicativo é um programa em Python que oferece uma variedade de funcionalidades interativas em um menu. Para acessar o menu, o usuário precisa fornecer uma senha correta (`VILHALVA`). Uma vez dentro, o usuário pode escolher entre diferentes opções numeradas (de 1 a 30) para realizar várias tarefas, como entrevistas de emprego simuladas, cálculos matemáticos, conversões, etc. Cada opção representa uma funcionalidade específica e executa uma tarefa diferente. O programa utiliza recursos visuais, como estilos de texto, para tornar a interação mais interessante. Além disso, inclui mensagens de espera e contagens regressivas para criar uma experiência mais envolvente. 
 
 ## ATUALIZAÇÕES:
 ### ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.3%20--%2017%2F01%2F2024-blueviolet)
