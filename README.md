@@ -10,13 +10,40 @@
 O aplicativo é um programa em Python que oferece uma variedade de funcionalidades interativas em um menu. Para acessar o menu, o usuário precisa fornecer uma senha correta (`VILHALVA`). Uma vez dentro, o usuário pode escolher entre diferentes opções numeradas (de 1 a 30) para realizar várias tarefas, como entrevistas de emprego simuladas, cálculos matemáticos, conversões, etc. Cada opção representa uma funcionalidade específica e executa uma tarefa diferente. O programa utiliza recursos visuais, como estilos de texto, para tornar a interação mais interessante. Além disso, inclui mensagens de espera e contagens regressivas para criar uma experiência mais envolvente. 
 
 ## ATUALIZAÇÕES:
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.4%20--%2018%2F01%2F2024-blueviolet)
+* ❎Emojis do `MENU PRINCIPAL` foram removidos.
+* ✅Foi adicionado uma contagem regressiva de 30 segundos para `FECHAR O APP`.
+* ❇️20 novas funções foram adicionadas:
+  - 🔸[ 31 ] PROPORÇÃO
+  - 🔸[ 32 ] FRAÇÕES
+  - 🔸[ 33 ] ALGEBRA
+  - 🔸[ 34 ] TEOREMA DE PITAGORAS
+  - 🔸[ 35 ] TEOREMA DE TALES
+  - 🔸[ 36 ] TEOREMA RECÍPROCO
+  - 🔸[ 37 ] PLANO CARTESIANO
+  - 🔸[ 38 ] BINÔMIO
+  - 🔸[ 39 ] POLINÔMIO
+  - 🔸[ 40 ] TRIGONOMETRIA
+  - 🔸[ 41 ] REGRA DE TRÊS
+  - 🔸[ 42 ] CALCULAR A RAZÃO
+  - 🔸[ 43 ] ARQUIMEDES
+  - 🔸[ 44 ] POLIGONO
+  - 🔸[ 45 ] GEOMETRIA PLANA
+  - 🔸[ 46 ] RADICAIS
+  - 🔸[ 47 ] DOMINIO E CONJUNTO DE IMAGEM
+  - 🔸[ 48 ] LOGARITMOS
+  - 🔸[ 49 ] DETERMINANTES
+  - 🔸[ 50 ] GEOMETRIA ANALITICA
+* ✅Correções de bugs e pequenas melhorias.
+![](https://i.imgur.com/waxVImv.png)
+
 ### ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.3%20--%2017%2F01%2F2024-blueviolet)
 * 🈯️Refatoramos o código com modularização, organizando cada função em arquivos separados. Funções não mais utilizadas foram removidas.
 * ✅Corrigimos a função `VALOR_FLOAT`, tornando o programa compatível tanto com `VÍRGULA` (,) quanto com `PONTO` (.).
 * 🈯️Adicionamos validação de STRING: O programa agora rejeita campos vazios e valores numéricos.
 * 🈯️No `MENU PRINCIPAL`, substituímos as estruturas condicionais (if, elif) por um dicionário para mapear as opções diretamente para as funções correspondentes.
 * ✅Implementamos melhorias no `CONVERSOR DE TEMPERATURAS`, permitindo ao usuário converter entre Celsius e Fahrenheit, Fahrenheit e Celsius, e incluímos a opção de conversão para Kelvin. Agora, o programa oferece alternativas para converter de Celsius para Kelvin e de Fahrenheit para Kelvin.
-* ❇️Novas funções foram adicionadas:
+* ❇️10 novas funções foram adicionadas:
   - 🔸[ 21 ] PROGRESSÃO GEOMETRICA (PG)
   - 🔸[ 22 ] CALCULAR O MMC
   - 🔸[ 23 ] CALCULAR O MDC
@@ -65,7 +92,7 @@ O aplicativo é um programa em Python que oferece uma variedade de funcionalidad
   - 🔸Foi inclementado "else" em todas as condicionais. O script sempre irá responder, independente do que usuário digitou.
   - 🔸Foi adicionado nova pergunta referente ao sexo [M/F]; Caso o usuário erre ao responder ocorrerá loop até acertar;
   - 🔸Adicionamos novamente o "resultado" no "relatório final".  Se o usuário responder na meta e experiência profissional: "Advogado, doutor, juiz e político" ele será aprovado.
-* ❇️Novas funções foram adicionados:
+* ❇️10 novas funções foram adicionadas:
   - 🔸[ 11 ] RADAR ELETRÔNICO
   - 🔸[ 12 ] CUSTO DA VIAJEM
   - 🔸[ 13 ] ANO BISSEXTO
