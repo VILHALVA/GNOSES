@@ -7,7 +7,7 @@
 O aplicativo é um programa em Python que oferece uma variedade de funcionalidades interativas em um menu. Para acessar o menu, o usuário precisa fornecer uma senha correta (`VILHALVA`). Uma vez dentro, o usuário pode escolher entre diferentes opções numeradas para realizar várias tarefas, como entrevistas de emprego simuladas, cálculos matemáticos, conversões, etc. Cada opção representa uma funcionalidade específica e executa uma tarefa diferente. O programa utiliza recursos visuais, como estilos de texto, para tornar a interação mais interessante. Além disso, inclui mensagens de espera e contagens regressivas para criar uma experiência mais envolvente. 
 
 ## COMO USAR?
-## BAIXANDO O PROJETO:
+### BAIXANDO O PROJETO:
 **Passo 1:** Clone o repositório para o seu sistema local.
 
 ```bash
@@ -26,7 +26,7 @@ cd GNOSES
 unzip GNOSES.zip
 ```
 
-## EXECUTANDO O EXECUTAVEL:
+### EXECUTANDO O EXECUTAVEL:
 1. **Localize o Arquivo:** Após o download, localize o arquivo executável no seu sistema. Geralmente, os downloads são salvos na pasta "Downloads" do seu computador, mas você pode tê-lo salvo em outro local.
 
 2. **Duplo Clique:** Para executar o arquivo, basta dar um duplo clique sobre ele. Isso abrirá o programa associado ao arquivo. Se o arquivo for um instalador, ele iniciará o processo de instalação. Se for um programa independente, ele será iniciado.
@@ -41,7 +41,7 @@ unzip GNOSES.zip
 
 7. **Atualizações e Patches:** Por fim, verifique se há atualizações ou patches para o executável, especialmente se for um software de terceiros. As atualizações podem corrigir problemas conhecidos ou adicionar novos recursos ao programa.
 
-## EXECUTANDO O SCRIPT PYTHON:
+### EXECUTANDO O SCRIPT PYTHON:
 - Após o download, abra a pasta `./CODIGO`.
 
 - Para executar um código Python `(MAIN.py)` em um PC zerado, ou seja, em um computador onde o Python não está instalado, você precisará seguir alguns passos adicionais para configurar o ambiente de execução. É importante destacar que o arquivo `MAIN.py` é o coração do sistema; tentar executar qualquer outro arquivo não resultará no funcionamento adequado do aplicativo. Aqui está um guia básico para isso:
