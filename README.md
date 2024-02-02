@@ -60,8 +60,8 @@ unzip GNOSES.zip
 
 4. **Executando o Script:**
    - Abra um prompt de comando (no Windows, pressione `Win + R`, digite "cmd" e pressione Enter).
-   - Navegue até o diretório onde o `nome-do-arquivo.py` está localizado usando o comando `cd` (por exemplo, `cd C:\Caminho\Para\O\Script`).
-   - Execute o script digitando `python script.py` e pressionando Enter.
+   - Navegue até o diretório onde o `nome-do-arquivo.py` está localizado usando o comando `cd` (por exemplo, `cd C:\Caminho\Para\O\nome-do-arquivo.py`).
+   - Execute o script digitando `python nome-do-arquivo.py` e pressionando Enter.
 
 5. **Instalando Dependências (se necessário):**
    - Se o seu script Python depende de pacotes ou módulos externos, você precisará instalá-los manualmente.
