@@ -72,4 +72,5 @@ Seguindo esses passos, você poderá executar o seu script Python em um PC zerad
 ## SAIBA MAIS:
 - [CLIQUE AQUI PARA VER O HISTÓRICO DE ATUALIZAÇÕES](./UPDATES.md)
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
+- [FAÇA OS NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
