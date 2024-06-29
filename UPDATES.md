@@ -1,4 +1,7 @@
 # ATUALIZAÇÕES:
+## VERSÃO 2.5 - 29/06/2024:
+* ✅Foi criado um instalador para Windows X64 apartir do executavel.
+
 ## VERSÃO 2.4 - 18/01/2024:
 * ✅Emojis do `MENU PRINCIPAL` foram removidos.
 * ✅Foi adicionado uma contagem regressiva de 30 segundos para `FECHAR O APP`.
