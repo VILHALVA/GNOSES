@@ -1,6 +1,7 @@
 # ATUALIZAÇÕES:
 ## VERSÃO 2.5 - 29/06/2024:
 * ✅Foi criado um instalador para Windows X64 apartir do executavel.
+---
 
 ## VERSÃO 2.4 - 18/01/2024:
 * ✅Emojis do `MENU PRINCIPAL` foram removidos.
@@ -27,6 +28,7 @@
   - 🔸[ 49 ] DETERMINANTES
   - 🔸[ 50 ] GEOMETRIA ANALITICA
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 2.3 - 17/01/2024: 
 * ✅Refatoramos o código com modularização, organizando cada função em arquivos separados. Funções não mais utilizadas foram removidas.
@@ -46,10 +48,12 @@
   - 🔸[ 29 ] PODE VOTAR?
   - 🔸[ 30 ] CALCULADORA 
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 2.2 - 20/12/2023:
 * ✅As cores do Terminal foram removidas.
 * ✅Depois de muito tempo, temos o prazer de anunciar o lançamento desse maravilhoso app para Windows X64. Se trata de um arquivo executável. Basta apenas baixar e executar.
+---
 
 ## VERSÃO 2.1 - 05/04/2022:
 * ✅Além de criar uma função, mudamos o tempo de espera em relação a senha:
@@ -63,6 +67,7 @@
 * ✅Agora, o programa aceita vírgula no lugar de ponto nos valores reais;
 * ✅Imprementamos a validação de dados e tratamento de excessões em todas as funções. O programa não irá processeguir até que o usuário tenha digitado os dados corretamente (int ou float).
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 2.0 - 23/02/2022:
 * ✅Refatoramos todo o script em relação:
@@ -92,6 +97,7 @@
   - 🔸[ 19 ] JOGO ADIVINHAÇÃO
   - 🔸[ 20 ] PROGRESSÃO ARITMÉTICA
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.9 - 21/01/2022:
 * ✅Substituímos as aspas simples (') por aspas duplas (") em todo o código (print/input); 
@@ -121,6 +127,7 @@
   - 🔸[ 9 ]  PINTAR PAREDE
   - 🔸[ 10 ]  ALUGUEL CARRO
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.8 - 13/01/2022:
 * ✅Decidimos colorir o ambiente. Atualmente: A letra está em negrito, o texto em vermelho e o fundo azul. Devido a limitação do nosso dispositivo, o script inteiro está nesse formato; 
@@ -133,6 +140,7 @@
       - 🔸[4] Calcular o Desconto (%)
       - 🔸[5] Calcular o Aumento (%)
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.7 - 08/01/2022:
 * ✅Foi adicionado o menu de opções com loop (while); Dando a liberdade para o usuário escolher qual o módulo disponível deseja usar; Basta digitar o número que representa a função:
@@ -148,6 +156,7 @@
    - 🔸O termo: "FIM" com fonte Blue (🇫 🇮 🇲);
    - 🔸A formatação de ("-" *30) de "⏳Processando...";
 * ✅Correção de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.6 - 01/01/2022:
 * ✅Foi adicionado o módulo "IMPORTANDO FUNÇÕES" para comandos que não estão disponíveis nativamente no python (Antes da entrevista);
@@ -157,12 +166,14 @@
 * ✅Em relação a função "cálculo da média", teve algumas melhorias: Agora o usuário saberá se está de recuperação, se foi reprovado ou aprovado em qualquer exame;
 * ✅Na finalização aparece o termo: "FIM"  com fonte Blue (🇫 🇮 🇲) após a despedida;
 * ✅Correção de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.5 - 30/12/2021:
 * ✅Foi adicionado a saudação de abertura ao iniciar; Antes da "Entrevista de emprego";
 * ✅Em relação ao "relatório final", o comando implícito personalizado (txt ('_')) mudou da nomeclatura: "título" para "relatorio";
 * ✅Foram lançados duas novas perguntas na "Entrevista de Emprego": "Você tem o ensino médio completo?" e "Qual é a sua experiência profissional?". Ambas estão nos conformes do Update API 1.5(Também estão nas variáveis, condições e "relatório final");
 * ✅Correção de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.4 - 29/12/2021:
 * ✅Esse projeto passou a se chamar oficialmente: "GNOSES". E o arquivo é nomeado como "SCRIPTS(VERSÃO).PY" ("scripts" para o arquivo e "script" a  API);
@@ -173,6 +184,7 @@
 * ✅Foi acrescentado a função do cálculo do IMC (Índice de massa corporal);
 * ✅Foi incrementado uma despedida calorosa no fim da execução do script;
 * ✅Correção de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.3 - 28/12/2021:
 * ✅Foi acrescentado emojis na interassão com o usuário;
@@ -180,16 +192,19 @@
 * ✅Foi acrescentado as condicionais (if e else) junto as variáveis (nome, idade, local e emprego). Como em um vídeo game, a resposta do script irá variar conforme a resposta do usuário;
 * ✅Foi acrescentado o cálculo da média aritmética para a nota da prova de Matemática do entrevistado;
 * ✅Correção de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.2 - 24/12/2021:
 * ✅O script está mais organizado e completo (Pula linha) para facilitar a leitura e as futuras atualizações;
 * ✅Foi feito a junção de um diálogo (input) junto com as variáveis (=);
 * ✅Foi lançado o "relatório final" após a entrevista; Onde menciona os dados que salvou das variáveis; em conjunto com seus nomes na segunda linha;
 * ✅As perguntas: peso e estado civil, foram removidas.
+---
 
 ## VERSÃO 1.1 - 22/12/2021:
 * ✅Foi acrescentado mais perguntas, como: Nome, idade, endereço, peso e estado civil.
 * ✅Input passa a funcionar com algumas variáveis (Alfa);
+---
 
 ## VERSÃO 1.0 - 22/12/2021:
 * 👤Comecei a criar um script que interage com o usuário, como em uma entrevista de emprego. Não quero que esse projeto se limite apenas a isso, mas que alcance outras temáticas (ou até propósitos). Não sei qual o rumo que isso irá tomar; Se será um bot, um app, uma rede social ou um jogo. Por enquanto, esse código só funciona no compilador/interpretador. No futuro próximo, ele será liberado pra todos.
