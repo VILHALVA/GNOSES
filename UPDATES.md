@@ -1,4 +1,54 @@
 # ATUALIZAÇÕES:
+## VERSÃO 2.6 - 26/09/2024:
+### ✅ PRINCIPAIS MUDANÇAS REALIZADAS NA ESTRUTURA DO PROJETO:
+1. **Novo arquivo `config.py`**:
+   - 🔸 Criado para centralizar todas as importações e dependências do projeto. Agora, todos os arquivos fazem referência a este arquivo, simplificando a gestão de imports e prevenindo possíveis conflitos de importação.
+
+2. **Renomeação e reorganização de arquivos**:
+   - 🔸 O antigo arquivo `AAAA.py` foi renomeado para `central.py` e movido para o diretório `model`.
+   - 🔸 As funções `FIM` e `END` agora estão localizadas no arquivo `central.py`, dentro do diretório `model`.
+
+3. **Padronização de nomes de arquivos**:
+   - 🔸 Todos os arquivos foram renomeados, deixando de estar em UPPERCASE para ficarem em lowercase, seguindo boas práticas de nomeação.
+
+4. **Arquivo `requirements.txt`**:
+   - ✅ Um novo arquivo `requirements.txt` foi criado para facilitar a instalação das dependências do projeto. Para instalá-las, basta rodar o comando:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+5. **Reclassificação do projeto**:
+   - ✅ Este projeto foi reclassificado e não faz mais parte da categoria de [APLICATIVOS](https://github.com/VILHALVA?tab=repositories&q=topic:APLICATIVO+topic:TERMINAL). Agora ele pertence à categoria de [BOTS](https://github.com/VILHALVA?tab=repositories&q=topic:BOT+topic:TERMINAL). Com isso, o executável e o instalador foram removidos.
+
+### 🔵 ESTRUTURA DE DIRETÓRIOS:
+- **Antes:**
+  ```plaintext
+  /CODIGO
+  │
+  ├── MAIN.py
+  ├── AAAA.py
+  └── APRESENTACAO.py
+  └── // Outros arquivos...
+  ```
+
+- **Depois:**
+  ```plaintext
+  /CODIGO
+  │
+  ├── /plugins
+  │   ├── entrevista.py
+  │   ├── adivinhacao.py
+  │   └── // Outros arquivos...
+  │
+  ├── /model
+  │   └── central.py
+  │
+  ├── config.py
+  └── main.py
+  ```
+
+---
+
 ## VERSÃO 2.5 - 29/06/2024:
 * ✅Foi criado um instalador para Windows X64 apartir do executavel.
 ---

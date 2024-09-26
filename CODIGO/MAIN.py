@@ -1,62 +1,9 @@
-from AAAA import PROCESSO, linha, VALOR_INT
-from APRESENTACAO import apresentacao
-from FIM import fim
-
-from ENTREVISTA import entrevista
-from MEDIA import media
-from IMC import imc
-from DESCONTOS import descontos
-from AUMENTOS import aumentos
-from TEMPERATURAS import temperatura
-from HIPOTENUSA import hipotenusa
-from SCT import sct
-from PAREDE import parede
-from CARROS import carros
-from RADAR import radar
-from VIAGEM import viagem
-from BISSEXTO import bissexto
-from EMPRESTIMO import emprestimo
-from BASES_NUMERICAS import bases_numericas
-from MILITAR import militar
-from TRIANGULOS import triangulos
-from PALINDROMO import palindromo
-from ADIVINHACAO import adivinhacao
-from PA import pa
-from PG import pg
-from MMC import mmc
-from MDC import mdc
-from PRIMEIRO_GRAU import primeiro_grau
-from SEGUNDO_GRAU import segundo_grau
-from POTENCIACAO import potenciacao
-from TABUADA import tabuada
-from TEMPO import tempo
-from VOTACAO import votacao
-from CALCULADORA import calculadora
-from PROPORCAO import proporcao
-from FRACOES import fracoes
-from ALGEBRA import algebra
-from PITAGORAS import pitagoras
-from TALES import tales
-from RECIPROCO import reciproco
-from CARTESIANO import cartesiano
-from BINOMIO import binomio
-from POLINOMIO import polinomio
-from TRIGONOMETRIA import trigonometria
-from REGRA_DE_TRES import regra_de_tres
-from RAZAO import razao
-from ARQUIMEDES import arquimedes
-from POLIGONO import poligono
-from GEOMETRIA_PLANA import geometria_plana
-from RADICAIS import radicais
-from CONJUNTOS import conjuntos
-from LOGARITMOS import logaritmos
-from DETERMINANTES import determinantes
-from GEOMETRIA_ANALITICA import geometria_analitica
+from config import *
 
 def main():
     apresentacao()
     opcoes = {
-        0: fim,
+        0: END,
         1: entrevista,
         2: media,
         3: imc,
@@ -111,7 +58,7 @@ def main():
 
     while True:
         PROCESSO("⌛CARREGANDO", 00, 120, 20, 0.5)     
-        linha('''   
+        LINHA('''   
            MENU PRINCIPAL: \n  
         [ 0 ] SAIR DO PROGRAMA
         [ 1 ] ENTREVISTA COPT
@@ -121,7 +68,7 @@ def main():
         [ 5 ] CALCULAR O AUMENTO
         [ 6 ] CONVERTER A TEMPERATURA
         [ 7 ] CALCULAR A HIPOTENUSA  
-        [ 8 ] CALCULAR P SCT
+        [ 8 ] CALCULAR SCT
         [ 9 ] PINTAR A PAREDE
         [ 10 ] ALUGUEL DE CARRO
         [ 11 ] RADAR ELETRÔNICO
