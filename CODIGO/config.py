@@ -13,11 +13,11 @@ from model.central import (
     VALOR_INT, 
     VALOR_FLOAT, 
     STRING, 
-    FIM,
-    END
+    FIM
 )
 
-from plugins.apresentacao import apresentacao
+from model.apresentacao import apresentacao
+from model.final import final
 from plugins.entrevista import entrevista
 from plugins.adivinhacao import adivinhacao
 from plugins.entrevista import entrevista

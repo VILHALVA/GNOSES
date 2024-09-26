@@ -6,7 +6,7 @@
 
 2. **Renomeação e reorganização de arquivos**:
    - 🔸 O antigo arquivo `AAAA.py` foi renomeado para `central.py` e movido para o diretório `model`.
-   - 🔸 As funções `FIM` e `END` agora estão localizadas no arquivo `central.py`, dentro do diretório `model`.
+   - 🔸 As funções `apresentacao` e `final` agora estão localizadas no arquivo `apresentacao.py` e `final.py`, dentro do diretório `model`.
 
 3. **Padronização de nomes de arquivos**:
    - 🔸 Todos os arquivos foram renomeados, deixando de estar em UPPERCASE para ficarem em lowercase, seguindo boas práticas de nomeação.
@@ -42,6 +42,8 @@
   │
   ├── /model
   │   └── central.py
+  │   └── apresentacao.py
+  │   └── final.py
   │
   ├── config.py
   └── main.py

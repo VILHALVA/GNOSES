@@ -3,7 +3,7 @@ from config import *
 def main():
     apresentacao()
     opcoes = {
-        0: END,
+        0: final,
         1: entrevista,
         2: media,
         3: imc,
