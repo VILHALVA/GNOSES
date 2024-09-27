@@ -1,9 +1,9 @@
 from config import *
 
 def LINHA(txt):
-    print("_" *35)
+    print("_" *20)
     print(txt)
-    print("_" *35)
+    print("_" *20)
       
 def PROCESSO(txt, I, F, P, S):
     for c in range(I, F, P):   
