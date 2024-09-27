@@ -18,10 +18,10 @@ def VALOR_INT(msg):
         try:
             n = int(input(msg))
         except (ValueError, TypeError):
-            print("😬ERRO! Digite um valor Inteiro!!!")
+            print("😬ERRO! DIGITE UM VALOR INTEIRO!!!")
             continue
         except KeyboardInterrupt:
-            print("🔺Houve erro! Usuário não digitou valor!")
+            print("🔺HOUVE ERRO! USUÁRIO NÃO DIGITOU VALOR!")
             return n
         else:
             return n 
@@ -30,22 +30,22 @@ def VALOR_FLOAT(msg):
     while True:
         entrada = input(msg).strip().replace(",", ".")
         if not entrada:
-            print("😬ERRO! Valor inválido. Tente novamente.")
+            print("😬ERRO! VALOR INVÁLIDO. TENTE NOVAMENTE.")
             continue
         try:
             valor_float = float(entrada)
             return valor_float
         except ValueError:
-            print(f"😬ERRO! \'{entrada}\' é um valor inválido. Tente novamente.")
+            print(f"😬ERRO! \'{entrada}\' É UM VALOR INVÁLIDO. TENTE NOVAMENTE.")
             
 def STRING(msg):
     while True:
         entrada = input(msg).strip()
         if not entrada:
-            print("😬ERRO! A string não pode ser vazia. Tente novamente...")
+            print("😬ERRO! A STRING NÃO PODE SER VAZIA. TENTE NOVAMENTE...")
             continue
         if entrada.isnumeric():
-            print("😬ERRO! A string não pode ser numérica. Tente novamente...")
+            print("😬ERRO! A STRING NÃO PODE SER NUMÉRICA. TENTE NOVAMENTE...")
             continue
         return entrada 
 
