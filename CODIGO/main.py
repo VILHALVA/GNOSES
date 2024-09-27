@@ -112,13 +112,13 @@ def main():
         [ 49 ] DETERMINANTES
         [ 50 ] GEOMETRIA ANALITICA
                  ''')    
-        opcao = VALOR_INT("\n😎Digite o número da sua opção:\n>>>") 
+        opcao = VALOR_INT("\n😎DIGITE O NÚMERO DA SUA OPÇÃO:\n>>>") 
         PROCESSO("⌛Carregando", 00, 110, 10, 0.2)
          
         if opcao in opcoes:
             opcoes[opcao]()  
         else:
-            print("😠Opção inválida. Tente novamente!")
+            print("😠OPÇÃO INVÁLIDA. TENTE NOVAMENTE!")
 
 if __name__ == "__main__":
     main()
