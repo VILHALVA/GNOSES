@@ -19,19 +19,25 @@ O bot é um programa em Python que oferece uma variedade de funcionalidades inte
      python main.py
      ```
 
-3. **Menu principal**:
+3. **Digite a Senha**:
+   - Para liberar o acesso, digite a seguinte senha ao iniciar:
+     ```
+     VILHALVA
+     ```
+
+4. **Menu principal**:
    - O programa abrirá o menu principal diretamente no console. Leia atentamente as opções disponíveis.
 
-4. **Escolher uma opção**:
+5. **Escolher uma opção**:
    - Digite o número correspondente à opção desejada e pressione `Enter`. O programa executará a função associada à escolha.
 
-5. **Interação com o usuário**:
+6. **Interação com o usuário**:
    - Dependendo da opção escolhida, o programa pode solicitar entradas adicionais, realizar cálculos ou gerar resultados com base nas informações fornecidas.
 
-6. **Navegar no menu**:
+7. **Navegar no menu**:
    - Após executar uma função, o programa retornará automaticamente ao menu principal. A partir daí, você pode continuar explorando outras opções ou sair.
 
-7. **Encerrar o programa**:
+8. **Encerrar o programa**:
    - Quando quiser finalizar a sessão, basta digitar `0` no menu principal. Isso encerrará o programa de maneira segura.
 
 ## NÃO SABE?
