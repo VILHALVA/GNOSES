@@ -1,5 +1,6 @@
 from time import sleep, time as datetime  
 from random import randint
+import pyfiglet
 import math
 from math import comb
 import numpy as np
