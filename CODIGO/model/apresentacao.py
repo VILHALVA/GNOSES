@@ -1,6 +1,9 @@
 from config import *
 
 def apresentacao():
+    ascii_art = pyfiglet.figlet_format("GNOSES")
+    print(ascii_art)
+    sleep(2)
     cont = 1
     def tempo(txt1, segundos, txt2):
         print(f"😠FORAM {cont} TENTATIVAS!!!", end="\r")
