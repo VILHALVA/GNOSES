@@ -20,6 +20,9 @@
 5. **Reclassificação do projeto**:
    - ✅ Este projeto foi reclassificado e não faz mais parte da categoria de [APLICATIVOS](https://github.com/VILHALVA?tab=repositories&q=topic:APLICATIVO+topic:TERMINAL). Agora ele pertence à categoria de [BOTS](https://github.com/VILHALVA?tab=repositories&q=topic:BOT+topic:TERMINAL). Com isso, o executável e o instalador foram removidos.
 
+6. **Implementação da arte ASCII**:
+   - ✅ Foi implementada uma arte ASCII gerada dinamicamente com a biblioteca **PyFiglet**, que exibe o texto 'GNOSES' em um formato estilizado no console. 
+
 ### 🔵 ESTRUTURA DE DIRETÓRIOS:
 - **Antes:**
   ```plaintext
