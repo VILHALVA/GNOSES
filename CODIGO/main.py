@@ -61,7 +61,7 @@ def main():
         LINHA('''   
            MENU PRINCIPAL: \n  
         [ 0 ] SAIR DO PROGRAMA
-        [ 1 ] ENTREVISTA COPT
+        [ 1 ] ENTREVISTA 
         [ 2 ] CALCULAR A MÉDIA
         [ 3 ] CALCULAR O IMC
         [ 4 ] CALCULAR O DESCONTO
