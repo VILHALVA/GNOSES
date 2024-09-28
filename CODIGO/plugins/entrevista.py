@@ -1,67 +1,121 @@
 from config import *
 
 def entrevista():
-    print("🔺AVISO: Essa entrevista se trata apenas de uma SIMULAÇÃO!!!")
+    print("🔺AVISO: ESSA ENTREVISTA SE TRATA APENAS DE UMA SIMULAÇÃO!!!")
     sleep(3)
-    print("😎Seja bem vindo a mais uma entrevista de emprego genérica.")
+    print("😎SEJA BEM-VINDO A MAIS UMA ENTREVISTA GENÉRICA.")
     sleep(3)   
-    nome = STRING("😎Qual é o seu nome?\n>>>").upper()
-    if "SAMUEL" in nome or "DANIEL" in nome or "LUCAS" in nome or "MARIA" in nome or "ANA" in nome:
-        print("😍Que nome lindo você tem!")
+    
+    NOME = STRING("😎QUAL É O SEU NOME?\n>>> ").upper()
+    if any(x in NOME for x in ["SAMUEL", "DANIEL", "LUCAS", "MARIA", "ANA"]):
+        print("😍QUE NOME LINDO VOCÊ TEM!")
     else: 
-        print("😒Seu nome é tão comum!")
-    sleep(3)       
-    sexo = STRING("😎Informe o seu sexo[M/F]:\n>>>").upper()[0]
-    while sexo not in "MmFf":
-        sexo = STRING("😠Dados inválidos!!!\n😬Por favor, informe seu sexo[M/F]:\n>>>").upper()[0]
-    if sexo == "M":
-        sexo = "HOMEM"
-    if sexo == "F":
-        sexo = "MULHER"
-    print(f"🌝Isso significa que você é {sexo}!!!")
-    sleep(3)    
-    idade = VALOR_INT("😎Qual é a sua idade?\n>>>")
-    if idade <= 30:
-        print("😱Nossa,como você é jovem!!!")
-    else: 
-        print("💪É...Ainda dá pro gasto!")
-    sleep(3)    
-    mora = STRING("😎Onde você mora?\n>>>").upper()
-    if "ACRE" in mora or "SERGIPE" in mora:
-        print("🌚Sei,na terra dos dinossauros!")
-    elif "BRASIL" in mora or "ARGENTINA" in mora:
-        print("😏Sei,no país menos corrupto!")
+        print("😒SEU NOME É TÃO COMUM!")
+    sleep(3)
+    
+    SEXO = STRING("😎INFORME O SEU SEXO [M/F]:\n>>> ").upper()[0]
+    while SEXO not in "MF":
+        SEXO = STRING("😠DADOS INVÁLIDOS!!!\n😬POR FAVOR, INFORME SEU SEXO [M/F]:\n>>> ").upper()[0]
+    
+    SEXO = "HOMEM" if SEXO == "M" else "MULHER"
+    print(f"🌝ISSO SIGNIFICA QUE VOCÊ É {SEXO}!!!")
+    sleep(3)
+    
+    IDADE = VALOR_INT("😎QUAL É A SUA IDADE?\n>>> ")
+    print("😱NOSSA, COMO VOCÊ É JOVEM!!!" if IDADE <= 30 else "💪É... AINDA DÁ PRO GASTO!")
+    sleep(3)
+    
+    LOCAL = STRING("😎ONDE VOCÊ MORA?\n>>> ").upper()
+    if any(x in LOCAL for x in ["ACRE", "SERGIPE"]):
+        print("🌚SEI, NA TERRA DOS DINOSSAUROS!")
+    elif any(x in LOCAL for x in ["BRASIL", "ARGENTINA"]):
+        print("😏SEI, NO PAÍS MENOS CORRUPTO!")
     else:
-        print("🌎Excelente!!!")
-    sleep(3)    
-    trabalha = STRING("😎Você trabalha em quê?\n>>>").upper()
-    if "NÃO" in trabalha or "NAO" in trabalha or "DESEMPREGADO" in trabalha or "DESEMPREGADA" in trabalha or "AUTÔNOMO" in trabalha or "AUTÔNOMA" in trabalha or "AUTONOMO" in trabalha or "AUTONOMA" in trabalha:
-        print("😔Com essa crise fica difícil mesmo!")
+        print("🌎EXCELENTE!!!")
+    sleep(3)
+    
+    TRABALHO = STRING("😎VOCÊ TRABALHA EM QUÊ?\n>>> ").upper()
+    if any(x in TRABALHO for x in ["NÃO", "NAO", "DESEMPREGADO", "DESEMPREGADA", "AUTÔNOMO", "AUTÔNOMA", "AUTONOMO", "AUTONOMA"]):
+        print("😔COM ESSA CRISE FICA DIFÍCIL MESMO!")
     else:
-        print("🙌Que bom!!!")
-    sleep(3)        
-    escola = STRING("😎Você tem o ensino médio completo?\n>>>").upper()
-    if "SIM" in escola or "TENHO" in escola or "FIZ" in escola or "FACULDADE" in escola or "UNIVERSIDADE" in escola:
-        print("👏PARABÉNS!!!")
-    elif "NÃO" in escola or "FUNDAMENTAL" in escola:
-        print("😔Assim fica complicado️!") 
+        print("🙌QUE BOM!!!")
+    sleep(3)
+    
+    ESCOLA = STRING("😎VOCÊ TEM O ENSINO MÉDIO COMPLETO? (RESPOSTA: SIM, NÃO, FACULDADE, UNIVERSIDADE, FUNDAMENTAL)\n>>> ").upper()
+    if any(x in ESCOLA for x in ["SIM", "TENHO", "FIZ", "ENSINO MÉDIO", "ENSINO MEDIO"]):
+        print("👏PARABÉNS! VOCÊ TEM O ENSINO MÉDIO COMPLETO.")
+        ESCOLARIDADE = "ENSINO MÉDIO COMPLETO"
+    elif any(x in ESCOLA for x in ["FACULDADE", "UNIVERSIDADE"]):
+        print("👏PARABÉNS! VOCÊ TEM NÍVEL SUPERIOR.")
+        ESCOLARIDADE = "NÍVEL SUPERIOR"
+    elif any(x in ESCOLA for x in ["NÃO", "NAO", "FUNDAMENTAL"]):
+        print("😔ASSIM FICA COMPLICADO!")
+        ESCOLARIDADE = "ENSINO FUNDAMENTAL INCOMPLETO"
     else:
-        print("👏️Continue,que você consegue!!!️")
-    sleep(3)      
-    meta = STRING("😎Quais são suas metas para o futuro?\n>>>").upper()
-    print("☺️Com estudo e dedicação você consegue!")
-    sleep(3)    
-    experiência = STRING("😎Agora me conta: Qual é sua experiência profissional?\n>>>").upper()
-    if "NÃO" in experiência or "POUCO" in experiência or "POUCA" in experiência or "NENHUM" in experiência or "NENHUMA" in experiência:
-        print("😏Nunca é tarde para aprender coisas novas!!!")
+        print("👏CONTINUE, QUE VOCÊ CONSEGUE!!!")
+        ESCOLARIDADE = "OUTRO NÍVEL EDUCACIONAL"
+    sleep(3)
+    
+    META = STRING("😎QUAIS SÃO SUAS METAS PARA O FUTURO?\n>>> ").upper()
+    print("☺️COM ESTUDO E DEDICAÇÃO VOCÊ CONSEGUE!")
+    sleep(3)
+    
+    EXPERIENCIA = STRING("😎AGORA ME CONTA: QUAL É SUA EXPERIÊNCIA PROFISSIONAL?\n>>> ").upper()
+    if any(x in EXPERIENCIA for x in ["NÃO", "NAO", "POUCO", "POUCA", "NENHUM", "NENHUMA"]):
+        print("😏NUNCA É TARDE PARA APRENDER COISAS NOVAS!!!")
     else:
-        print("⚡A cada dia; Novo aprendizado!!!")         
-    if "MÉDICO" in experiência and meta or "DOUTOR" in experiência and meta or "ADVOGADO" in experiência and meta or "JUIZ" in experiência and meta or "POLÍTICO" in experiência and meta:
-        vetor = "👍APROVADO!"
+        print("⚡A CADA DIA; NOVO APRENDIZADO!!!")
+    
+    if any(x in EXPERIENCIA for x in ["MÉDICO", "DOUTOR", "ADVOGADO", "JUIZ", "POLÍTICO"]) and META:
+        RESULTADO = "👍APROVADO!"
     else:
-        vetor = "👎REPROVADO!"                   
-    print("😎Agora você irá receber o relatório da entrevista!Aguarde um momento...")
-    sleep(2)         
+        RESULTADO = "👎REPROVADO!"
+    
+    print("😎AGORA VOCÊ IRÁ RECEBER O RELATÓRIO DA ENTREVISTA! AGUARDE UM MOMENTO...")
+    sleep(2)
     PROCESSANDO()
-    LINHA(f"  🔰RELATÓRIO FINAL:\n⭐Seu Nome é: {nome}!\n⭐Seu sexo: {sexo}!\n⭐Sua Idade é {idade}!\n⭐Você Mora no: {mora}!\n⭐Seu Trabalho é: {trabalha}!\n⭐Sua Meta é: {meta}!\n⭐Sua Escolaridade (EM): {escola}!\n⭐Sua Experiência é: {experiência}!\n⭐RESULTADO: {vetor}")       
+    
+    TEMPO = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    RES = f'''
+    =========================================
+        🔰RELATÓRIO FINAL:
+    -----------------------------------------
+    ⭐TIME -> {TEMPO}
+    ⭐SEU NOME -> {NOME}
+    ⭐SEU SEXO -> {SEXO}
+    ⭐SUA IDADE -> {IDADE} ANOS
+    ⭐VOCÊ MORA -> {LOCAL}
+    ⭐SEU TRABALHO -> {TRABALHO}
+    ⭐SUA META -> {META}
+    ⭐SUA ESCOLARIDADE -> {ESCOLARIDADE}
+    ⭐SUA EXPERIÊNCIA -> {EXPERIENCIA}
+    ⭐RESULTADO => {RESULTADO}
+    -----------------------------------------
+    ==========================================
+    '''
+    print(RES)
+    sleep(3)
+    
+    SALVAR = input("😃VOCÊ DESEJA SALVAR ESSE RELATÓRIO FINAL? ENVIE 'S' PARA CONFIRMAR!:\n>>> ").strip().upper()
+    
+    if SALVAR == "S":
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        FILES_DIR = os.path.join(BASE_DIR, 'files')
+        
+        if not os.path.exists(FILES_DIR):
+            os.makedirs(FILES_DIR)
+        
+        TEMPO_FORMATADO = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+        FILE_NAME = f"GNOSES_{TEMPO_FORMATADO}.txt"
+        FILE_PATH = os.path.join(FILES_DIR, FILE_NAME)
+        
+        with open(FILE_PATH, 'a', encoding='utf-8') as FILE:
+            FILE.write(RES)
+        
+        print(f"😃O RELATÓRIO FINAL FOI SALVO COM SUCESSO EM '{FILE_PATH}'!")
+        sleep(3)
+    else:
+        print("🤨TUDO BEM. O RELATÓRIO FINAL NÃO FOI SALVO!")
+        sleep(3)
+    
     FIM()
