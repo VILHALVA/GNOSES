@@ -1,4 +1,15 @@
 # ATUALIZAÇÕES:
+## VERSÃO 2.7 - 28/09/2024:
+* ✅Foi implementada uma arte ASCII gerada dinamicamente com a biblioteca **PyFiglet**, que exibe o texto 'GNOSES' em um formato estilizado no console. 
+* ✅Foram feitas grandes melhorias na `entrevista`:
+  - 🔸 Tanto as variáveis quanto a interação foram convertidas para `UPPER_CASE`.
+  - 🔸 **Organização e legibilidade:** Usei a função any() para simplificar verificações em listas, deixando o código mais limpo e legível.
+  - 🔸 **Verificação mais precisa:** O código agora identifica especificamente o tipo de escolaridade do usuário, não apenas "SIM" ou "NÃO", mas também distingue entre "ENSINO MÉDIO", "FACULDADE", "FUNDAMENTAL", etc.
+  - 🔸 **Armazenamento detalhado:** A variável `ESCOLARIDADE` vai armazenar uma descrição mais clara do nível educacional do usuário, para que o relatório final não fique com respostas vagas como "SIM" ou "NÃO".
+  - 🔸 O `RELATÓRIO FINAL` foi redesenhado e refatorado para incluir mais informações relevantes, como `TIME` (No formato: dd/mm/aa - hh:mm:ss) e `->` Entre os elementos e os inputs. 
+  - 🔸 Agora, ao final da exibição do `RELATÓRIO FINAL`, o sistema perguntará ao usuário se deseja salvar as informações. Caso a resposta seja afirmativa, o resultado será salvo em um arquivo `.txt` no diretório `./CODIGO/files`, com o nome `GNOSES_{TIME}.txt`. O arquivo conterá os mesmos dados que foram exibidos no console, bastando confirmar com a letra 'S'.
+---
+
 ## VERSÃO 2.6 - 26/09/2024:
 ### ✅ PRINCIPAIS MUDANÇAS REALIZADAS NA ESTRUTURA DO PROJETO:
 1. **Novo arquivo `config.py`**:
@@ -19,9 +30,6 @@
 
 5. **Reclassificação do projeto**:
    - ✅ Este projeto foi reclassificado e não faz mais parte da categoria de [APLICATIVOS](https://github.com/VILHALVA?tab=repositories&q=topic:APLICATIVO+topic:TERMINAL). Agora ele pertence à categoria de [BOTS](https://github.com/VILHALVA?tab=repositories&q=topic:BOT+topic:TERMINAL). Com isso, o executável e o instalador foram removidos.
-
-6. **Implementação da arte ASCII**:
-   - ✅ Foi implementada uma arte ASCII gerada dinamicamente com a biblioteca **PyFiglet**, que exibe o texto 'GNOSES' em um formato estilizado no console. 
 
 ### 🔵 ESTRUTURA DE DIRETÓRIOS:
 - **Antes:**
