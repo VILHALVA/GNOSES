@@ -1,4 +1,4 @@
-# ATUALIZAÇÕES:
+# [ATUALIZAÇÕES:](./UPDATES.md#vers%C3%A3o-10---22122021)
 ## VERSÃO 2.7 - 28/09/2024:
 * ✅Foi implementada uma arte ASCII gerada dinamicamente com a biblioteca **PyFiglet**, que exibe o texto 'GNOSES' em um formato estilizado no console. 
 * ✅Foram feitas grandes melhorias na `entrevista`:
